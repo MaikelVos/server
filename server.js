@@ -4,7 +4,7 @@ const port = 8080 || process.env.PORT;
 
 const app = express();
 
-app.get('/hello' , (req, res) => {
+app.get('/' , (req, res) => {
     res.json({'msg': 'hello you all'})
 
 });
